@@ -1,0 +1,46 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightgreen;
+    }
+}
+
+#main-doc {
+    font-family: monospace;
+    max-width:1440px;
+}
+
+.nav-link {
+    text-decoration: none;
+    background-color:black;
+    color: white;
+    padding: 5px;
+    margin:5px;
+    border-radius: 5px;
+}
+
+#navbar {
+    text-align: center;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    background-color:white;
+    color: black;
+    padding: 5px;
+    margin:5px;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: solid black;
+}
+
+.section-header {
+    color: rgb(0, 255, 0);
+    font-size: xx-large;
+    padding: 20px;
+    background-color: black;
+}
+
+.paragraph {
+    text-align: left;
+    padding: 15px;
+}
